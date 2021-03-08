@@ -41,8 +41,8 @@
             this.buttonApply = new System.Windows.Forms.Button();
             this.buttonCancel = new System.Windows.Forms.Button();
             this.buttonOK = new System.Windows.Forms.Button();
+            this.materialCheckBox1 = new MaterialSkin.Controls.MaterialCheckBox();
             this.tabControl.SuspendLayout();
-            this.tabPageGeneral.SuspendLayout();
             this.tabPageAbout.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -52,19 +52,18 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.tabControl.Controls.Add(this.tabPageGeneral);
             this.tabControl.Controls.Add(this.tabPageAbout);
-            this.tabControl.Location = new System.Drawing.Point(6, 7);
+            this.tabControl.Location = new System.Drawing.Point(-2, 4);
             this.tabControl.Name = "tabControl";
             this.tabControl.SelectedIndex = 0;
-            this.tabControl.Size = new System.Drawing.Size(305, 182);
+            this.tabControl.Size = new System.Drawing.Size(544, 182);
             this.tabControl.TabIndex = 0;
             // 
             // tabPageGeneral
             // 
-            this.tabPageGeneral.Controls.Add(this.checkBoxAutorun);
             this.tabPageGeneral.Location = new System.Drawing.Point(4, 22);
             this.tabPageGeneral.Name = "tabPageGeneral";
             this.tabPageGeneral.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPageGeneral.Size = new System.Drawing.Size(297, 156);
+            this.tabPageGeneral.Size = new System.Drawing.Size(536, 156);
             this.tabPageGeneral.TabIndex = 0;
             this.tabPageGeneral.Text = "General";
             this.tabPageGeneral.UseVisualStyleBackColor = true;
@@ -72,9 +71,9 @@
             // checkBoxAutorun
             // 
             this.checkBoxAutorun.AutoSize = true;
-            this.checkBoxAutorun.Location = new System.Drawing.Point(6, 6);
+            this.checkBoxAutorun.Location = new System.Drawing.Point(33, 253);
             this.checkBoxAutorun.Name = "checkBoxAutorun";
-            this.checkBoxAutorun.Size = new System.Drawing.Size(173, 17);
+            this.checkBoxAutorun.Size = new System.Drawing.Size(174, 17);
             this.checkBoxAutorun.TabIndex = 0;
             this.checkBoxAutorun.Text = "Start Taskplay with Windows";
             this.checkBoxAutorun.UseVisualStyleBackColor = true;
@@ -89,7 +88,7 @@
             this.tabPageAbout.Location = new System.Drawing.Point(4, 22);
             this.tabPageAbout.Name = "tabPageAbout";
             this.tabPageAbout.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPageAbout.Size = new System.Drawing.Size(297, 156);
+            this.tabPageAbout.Size = new System.Drawing.Size(536, 156);
             this.tabPageAbout.TabIndex = 1;
             this.tabPageAbout.Text = "About";
             this.tabPageAbout.UseVisualStyleBackColor = true;
@@ -99,7 +98,7 @@
             this.linkLabelGitHub.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.linkLabelGitHub.AutoSize = true;
             this.linkLabelGitHub.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline;
-            this.linkLabelGitHub.Location = new System.Drawing.Point(214, 134);
+            this.linkLabelGitHub.Location = new System.Drawing.Point(222, 98);
             this.linkLabelGitHub.Name = "linkLabelGitHub";
             this.linkLabelGitHub.Size = new System.Drawing.Size(44, 13);
             this.linkLabelGitHub.TabIndex = 8;
@@ -111,7 +110,7 @@
             // 
             this.labelContribute.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.labelContribute.AutoSize = true;
-            this.labelContribute.Location = new System.Drawing.Point(6, 134);
+            this.labelContribute.Location = new System.Drawing.Point(6, 98);
             this.labelContribute.Name = "labelContribute";
             this.labelContribute.Size = new System.Drawing.Size(215, 13);
             this.labelContribute.TabIndex = 7;
@@ -121,7 +120,7 @@
             // 
             this.labelSuggestions.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.labelSuggestions.AutoSize = true;
-            this.labelSuggestions.Location = new System.Drawing.Point(6, 117);
+            this.labelSuggestions.Location = new System.Drawing.Point(6, 85);
             this.labelSuggestions.Name = "labelSuggestions";
             this.labelSuggestions.Size = new System.Drawing.Size(183, 13);
             this.labelSuggestions.TabIndex = 5;
@@ -141,9 +140,10 @@
             this.labelTaskplay.AutoSize = true;
             this.labelTaskplay.Location = new System.Drawing.Point(6, 7);
             this.labelTaskplay.Name = "labelTaskplay";
-            this.labelTaskplay.Size = new System.Drawing.Size(49, 13);
+            this.labelTaskplay.Size = new System.Drawing.Size(56, 13);
             this.labelTaskplay.TabIndex = 2;
-            this.labelTaskplay.Text = "Taskplay";
+            this.labelTaskplay.Text = "TaskplayX";
+            this.labelTaskplay.Click += new System.EventHandler(this.labelTaskplay_Click);
             // 
             // buttonApply
             // 
@@ -176,13 +176,31 @@
             this.buttonOK.UseVisualStyleBackColor = true;
             this.buttonOK.Click += new System.EventHandler(this.buttonOK_Click);
             // 
+            // materialCheckBox1
+            // 
+            this.materialCheckBox1.AutoSize = true;
+            this.materialCheckBox1.Depth = 0;
+            this.materialCheckBox1.Font = new System.Drawing.Font("Roboto", 10F);
+            this.materialCheckBox1.Location = new System.Drawing.Point(258, 246);
+            this.materialCheckBox1.Margin = new System.Windows.Forms.Padding(0);
+            this.materialCheckBox1.MouseLocation = new System.Drawing.Point(-1, -1);
+            this.materialCheckBox1.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialCheckBox1.Name = "materialCheckBox1";
+            this.materialCheckBox1.Ripple = true;
+            this.materialCheckBox1.Size = new System.Drawing.Size(150, 30);
+            this.materialCheckBox1.TabIndex = 4;
+            this.materialCheckBox1.Text = "materialCheckBox1";
+            this.materialCheckBox1.UseVisualStyleBackColor = true;
+            // 
             // SettingsForm
             // 
             this.AcceptButton = this.buttonOK;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.buttonCancel;
-            this.ClientSize = new System.Drawing.Size(315, 220);
+            this.ClientSize = new System.Drawing.Size(542, 328);
+            this.Controls.Add(this.materialCheckBox1);
+            this.Controls.Add(this.checkBoxAutorun);
             this.Controls.Add(this.buttonOK);
             this.Controls.Add(this.buttonCancel);
             this.Controls.Add(this.buttonApply);
@@ -193,14 +211,13 @@
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "SettingsForm";
-            this.Text = "Taskplay Settings";
+            this.Text = "TaskplayX Settings";
             this.Load += new System.EventHandler(this.SettingsForm_Load);
             this.tabControl.ResumeLayout(false);
-            this.tabPageGeneral.ResumeLayout(false);
-            this.tabPageGeneral.PerformLayout();
             this.tabPageAbout.ResumeLayout(false);
             this.tabPageAbout.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -218,5 +235,6 @@
         private System.Windows.Forms.Button buttonApply;
         private System.Windows.Forms.Button buttonCancel;
         private System.Windows.Forms.Button buttonOK;
+        private MaterialSkin.Controls.MaterialCheckBox materialCheckBox1;
     }
 }
