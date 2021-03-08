@@ -28,7 +28,7 @@ namespace Taskplay
 
         private void linkLabelGitHub_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            System.Diagnostics.Process.Start("https://github.com/evilpro/Taskplay");
+            System.Diagnostics.Process.Start("https://github.com/alexandrus21a/Taskplay");
         }
 
         private void buttonApply_Click(object sender, EventArgs e)
@@ -45,6 +45,11 @@ namespace Taskplay
         {
             SaveSettings();
             Close();
+        }
+
+        private void labelTaskplay_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
