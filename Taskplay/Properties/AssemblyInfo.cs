@@ -8,7 +8,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("Taskplay")]
 [assembly: AssemblyDescription("Taskplay is a small utility which adds media playback controls to the Windows System Tray")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("evil_pro")]
+[assembly: AssemblyCompany("Alexandrus21a")]
 [assembly: AssemblyProduct("Taskplay")]
 [assembly: AssemblyCopyright("")]
 [assembly: AssemblyTrademark("")]
@@ -32,5 +32,5 @@ using System.Runtime.InteropServices;
 // You can specify all the values or you can default the Build and Revision Numbers
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.0.0.0")]
-[assembly: AssemblyFileVersion("1.0.0.0")]
+[assembly: AssemblyVersion("2.0.0.0")]
+[assembly: AssemblyFileVersion("2.0.0.0")]

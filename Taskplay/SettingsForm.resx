@@ -117,7 +117,264 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="&gt;&gt;tabPageGeneral.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="tabControl.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="labelTaskplay.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 16</value>
+  </data>
+  <data name="&gt;&gt;tabPageGeneral.Parent" xml:space="preserve">
+    <value>tabControl</value>
+  </data>
+  <data name="&gt;&gt;tabPageGeneral.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelTaskplay.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;checkBoxAutorun.Name" xml:space="preserve">
+    <value>checkBoxAutorun</value>
+  </data>
+  <data name="linkLabelGitHub.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 16</value>
+  </data>
+  <data name="&gt;&gt;labelVersion.Parent" xml:space="preserve">
+    <value>tabPageAbout</value>
+  </data>
+  <data name="&gt;&gt;labelVersion.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="labelContribute.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="buttonOK.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 28</value>
+  </data>
+  <data name="&gt;&gt;labelVersion.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;linkLabelGitHub.Name" xml:space="preserve">
+    <value>linkLabelGitHub</value>
+  </data>
+  <data name="tabPageGeneral.Size" type="System.Drawing.Size, System.Drawing">
+    <value>297, 195</value>
+  </data>
+  <data name="buttonCancel.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="labelSuggestions.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="labelContribute.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 162</value>
+  </data>
+  <data name="labelSuggestions.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 16</value>
+  </data>
+  <data name="&gt;&gt;tabControl.Name" xml:space="preserve">
+    <value>tabControl</value>
+  </data>
+  <data name="tabPageGeneral.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="labelTaskplay.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="checkBoxAutorun.Text" xml:space="preserve">
+    <value>Start TaskplayX with Windows</value>
+  </data>
+  <data name="labelSuggestions.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="labelSuggestions.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="&gt;&gt;labelContribute.Name" xml:space="preserve">
+    <value>labelContribute</value>
+  </data>
+  <data name="linkLabelGitHub.Location" type="System.Drawing.Point, System.Drawing">
+    <value>214, 162</value>
+  </data>
+  <data name="&gt;&gt;linkLabelGitHub.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;labelTaskplay.Name" xml:space="preserve">
+    <value>labelTaskplay</value>
+  </data>
+  <data name="linkLabelGitHub.Text" xml:space="preserve">
+    <value>GitHub</value>
+  </data>
+  <data name="&gt;&gt;labelSuggestions.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tabPageAbout.Size" type="System.Drawing.Size, System.Drawing">
+    <value>297, 195</value>
+  </data>
+  <data name="labelSuggestions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 141</value>
+  </data>
+  <data name="&gt;&gt;labelContribute.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPageGeneral.Name" xml:space="preserve">
+    <value>tabPageGeneral</value>
+  </data>
+  <data name="labelContribute.Text" xml:space="preserve">
+    <value>Feel free to contribute to the project on </value>
+  </data>
+  <data name="labelTaskplay.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="linkLabelGitHub.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="buttonCancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 28</value>
+  </data>
+  <data name="buttonApply.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 4, 2, 4</value>
+  </data>
+  <data name="&gt;&gt;checkBoxAutorun.Parent" xml:space="preserve">
+    <value>tabPageGeneral</value>
+  </data>
+  <data name="$this.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;buttonCancel.Name" xml:space="preserve">
+    <value>buttonCancel</value>
+  </data>
+  <data name="&gt;&gt;tabControl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelSuggestions.Parent" xml:space="preserve">
+    <value>tabPageAbout</value>
+  </data>
+  <data name="labelVersion.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="checkBoxAutorun.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;labelContribute.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="buttonOK.Location" type="System.Drawing.Point, System.Drawing">
+    <value>73, 236</value>
+  </data>
+  <data name="&gt;&gt;tabPageAbout.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelContribute.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="tabPageGeneral.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 25</value>
+  </data>
+  <data name="buttonCancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="&gt;&gt;checkBoxAutorun.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabPageGeneral.Text" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="checkBoxAutorun.Size" type="System.Drawing.Size, System.Drawing">
+    <value>178, 20</value>
+  </data>
+  <data name="$this.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="buttonOK.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Bahnschrift SemiCondensed, 9.75pt</value>
+  </data>
+  <data name="tabPageAbout.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 4, 2, 4</value>
+  </data>
+  <data name="&gt;&gt;buttonApply.Name" xml:space="preserve">
+    <value>buttonApply</value>
+  </data>
+  <data name="labelVersion.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBoxAutorun.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 7</value>
+  </data>
+  <data name="&gt;&gt;buttonOK.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonApply.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tabPageAbout.Parent" xml:space="preserve">
+    <value>tabControl</value>
+  </data>
+  <data name="tabPageGeneral.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 4, 2, 4</value>
+  </data>
+  <data name="&gt;&gt;labelSuggestions.Name" xml:space="preserve">
+    <value>labelSuggestions</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 4, 2, 4</value>
+  </data>
+  <data name="&gt;&gt;buttonCancel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="labelVersion.Text" xml:space="preserve">
+    <value>Version {0}</value>
+  </data>
+  <data name="&gt;&gt;labelSuggestions.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tabPageAbout.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="labelVersion.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="&gt;&gt;checkBoxAutorun.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="checkBoxAutorun.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 4, 2, 4</value>
+  </data>
+  <data name="&gt;&gt;buttonOK.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="buttonApply.Text" xml:space="preserve">
+    <value>Apply</value>
+  </data>
+  <data name="buttonApply.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="labelContribute.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="buttonCancel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 4, 2, 4</value>
+  </data>
+  <data name="labelVersion.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 30</value>
+  </data>
+  <data name="&gt;&gt;linkLabelGitHub.Parent" xml:space="preserve">
+    <value>tabPageAbout</value>
+  </data>
+  <data name="&gt;&gt;labelContribute.Parent" xml:space="preserve">
+    <value>tabPageAbout</value>
+  </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAABAAMAEBAAAAAAIABoBAAANgAAACAgAAAAACAAqBAAAJ4EAAAwMAAAAAAgAKglAABGFQAAKAAAABAA
@@ -374,4 +631,139 @@
         //8AAAAAAAD//wAAAAAAAP//AAAAAAAA//8=
 </value>
   </data>
+  <data name="&gt;&gt;linkLabelGitHub.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tabPageAbout.Text" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelTaskplay.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 9</value>
+  </data>
+  <data name="buttonCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>154, 236</value>
+  </data>
+  <data name="&gt;&gt;tabPageAbout.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;buttonApply.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabControl.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="labelContribute.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="tabControl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 9</value>
+  </data>
+  <data name="buttonOK.Text" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="&gt;&gt;labelVersion.Name" xml:space="preserve">
+    <value>labelVersion</value>
+  </data>
+  <data name="labelSuggestions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 16</value>
+  </data>
+  <data name="&gt;&gt;tabPageAbout.Name" xml:space="preserve">
+    <value>tabPageAbout</value>
+  </data>
+  <data name="&gt;&gt;labelTaskplay.Parent" xml:space="preserve">
+    <value>tabPageAbout</value>
+  </data>
+  <data name="tabControl.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="checkBoxAutorun.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tabPageGeneral.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 4, 2, 4</value>
+  </data>
+  <data name="linkLabelGitHub.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tabPageAbout.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 4, 2, 4</value>
+  </data>
+  <data name="&gt;&gt;buttonApply.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="buttonOK.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 4, 2, 4</value>
+  </data>
+  <data name="&gt;&gt;tabControl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelTaskplay.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="linkLabelGitHub.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;buttonCancel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;buttonOK.Name" xml:space="preserve">
+    <value>buttonOK</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>TaskplayX Settings</value>
+  </data>
+  <data name="buttonApply.Location" type="System.Drawing.Point, System.Drawing">
+    <value>235, 236</value>
+  </data>
+  <data name="buttonApply.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 28</value>
+  </data>
+  <data name="&gt;&gt;buttonCancel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="linkLabelGitHub.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>314, 271</value>
+  </data>
+  <data name="&gt;&gt;labelTaskplay.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>SettingsForm</value>
+  </data>
+  <data name="&gt;&gt;buttonOK.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabControl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>305, 224</value>
+  </data>
+  <data name="tabPageAbout.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 25</value>
+  </data>
+  <data name="labelSuggestions.Text" xml:space="preserve">
+    <value>Got a suggestion or found a bug?</value>
+  </data>
+  <data name="tabControl.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 4, 2, 4</value>
+  </data>
+  <data name="labelTaskplay.Text" xml:space="preserve">
+    <value>Taskplay</value>
+  </data>
+  <data name="labelVersion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 16</value>
+  </data>
+  <data name="labelContribute.Size" type="System.Drawing.Size, System.Drawing">
+    <value>210, 16</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>en</value>
+  </metadata>
 </root>
